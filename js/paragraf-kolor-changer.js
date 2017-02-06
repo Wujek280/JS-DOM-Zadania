@@ -23,12 +23,6 @@ document.body.appendChild(input);
 var p1 = document.getElementsByTagName('p')[0];
 var p2 = document.getElementsByTagName('p')[1];
 
-
-
-
-
-
-
 //var paragraph1 = document.getElementsByTagName('p')[0];
 //var paragraph2 = document.getElementsByTagName('p')[1];
 

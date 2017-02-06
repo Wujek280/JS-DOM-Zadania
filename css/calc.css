@@ -1,37 +1,64 @@
 #calc{
-   width: 400px; 
-   margin:0;
+   width: 380px; 
+   margin: 20px;
    font-size: 0;
    text-align: center;
 }
 
-#ekran {
-   margin:20px 0 ;
-   font-size: 32px;
-   width: 365px;   
-   height: 60px;
-   box-shadow: 0px 0px 2px 1px rgba(33,33,33,0.75);
-}
+body {width: 480px;}
 
 .button{
-   width: 30%;
+   width: 120px;
    height: 50px;
    display: inline-block;
-   border: 2px solid #666;
+   border:none;
+   border-bottom: 3px solid #337;
+   box-sizing: border-box;
    margin: 3px;
    text-align: center;
    line-height: 50px;
-   color: #666;
+   color: #337;
    font-size: 32px;
+   font-family: Lato;
    cursor: pointer;
-   background-color: #fff;
+   background-color: #f9f9ff;
    border-radius: 5px;
-   box-shadow: 0px 0px 2px 1px rgba(33,33,33,0.75);
 }
-.button:hover{background-color: #eee;}
 
-#button17 {
-   width: 246px;
+.button:hover{background-color: #eef; border-bottom: 2px solid #337; }
+.button:focus{ border:1px; }
+
+.screen {
+   font-family: consolas;
+   text-align: right;
+   color: #337;
+   font-size: 40px;
+   margin: 20px auto ;
+   display: block;
+   width: 370px;
+   height: 60px;
+   box-sizing: border-box;
+   border: 2px solid #ddf;
+   border-radius: 4px;
 }
+
+.screenMin{
+   font-family: consolas;
+   text-align: right;
+   color: gray;
+   font-size: 16px;
+   letter-spacing: 1px;
+   border: none;
+   text-align: right;
+   display: block;
+   width: 370px;
+}
+
+
+#button17 {width: 246px;background-color: #eef;}
+#button17:hover {background-color: #efe;}
+
+#button12 {background-color: #ffeedd;}
+#button12:hover {background-color: #ffdddd;}
 
 
